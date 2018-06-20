@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LoaderButton_Example' do
+  pod 'LoaderButton', :path => '../'
+
+  target 'LoaderButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
