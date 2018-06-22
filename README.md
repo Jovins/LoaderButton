@@ -1,12 +1,14 @@
 ## LoaderButton
 
-[![Swift Version][swift-image]][swift-url]
+![Version](https://img.shields.io/badge/swift-4.0-orange.svg)
 
-[![Build Status][travis-image]][travis-url]
+![build](https://img.shields.io/badge/build-passing-green.svg)
 
-[![License][license-image]][license-url]
+![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
-[![Platform][platform-image]][platform-url]![LoaderButton](https://github.com/Jovins/LoaderButton/blob/master/Images/loaderbutton.png)
+![platform](https://img.shields.io/badge/platforom-ios-yellowgreen.svg)
+
+![LoaderButton](https://github.com/Jovins/LoaderButton/blob/master/Images/loaderbutton.png)
 
 ### Example
 
