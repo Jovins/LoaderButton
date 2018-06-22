@@ -6,7 +6,7 @@
 
 [![License][license-image]][license-url]
 
-[![Platform][platform-image]][platform-url]![LoaderButton](https://github.com/Jovins/VRPhoto/tree/master/Images/loaderbutton.png)
+[![Platform][platform-image]][platform-url]![LoaderButton](https://github.com/Jovins/LoaderButton/blob/master/Images/loaderbutton.png)
 
 ### Example
 
@@ -14,7 +14,7 @@
 
 ### Screenshots
 
-![LoaderButton](https://github.com/Jovins/VRPhoto/tree/master/Images/loaderbutton.gif)
+![LoaderButton](https://github.com/Jovins/LoaderButton/blob/master/Images/loaderbutton.gif)
 
 ### Requirements
 
