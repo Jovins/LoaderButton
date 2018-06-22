@@ -1,12 +1,6 @@
 ## LoaderButton
 
-![Version](https://img.shields.io/badge/swift-4.0-orange.svg)
-
-![build](https://img.shields.io/badge/build-passing-green.svg)
-
-![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-
-![platform](https://img.shields.io/badge/platforom-ios-yellowgreen.svg)
+![Version](https://img.shields.io/badge/swift-4.0-orange.svg) ![pod](https://img.shields.io/badge/pod-v1.0.0-brightgreen.svg) ![build](https://img.shields.io/badge/build-passing-green.svg) ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg) ![platform](https://img.shields.io/badge/platforom-ios-yellowgreen.svg)
 
 ![LoaderButton](https://github.com/Jovins/LoaderButton/blob/master/Images/loaderbutton.png)
 
