@@ -1,5 +1,5 @@
 PODS:
-  - LoaderButton (0.1.0)
+  - LoaderButton (1.0.0)
 
 DEPENDENCIES:
   - LoaderButton (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LoaderButton: 92a854c2d031b92de6281f08c6e6af49918610af
+  LoaderButton: 1a8fb5556024932d88a8c20bbfb6487977f824f5
 
 PODFILE CHECKSUM: c9dc6b65e982ef9778dbe94c63be6db036a97b58
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3

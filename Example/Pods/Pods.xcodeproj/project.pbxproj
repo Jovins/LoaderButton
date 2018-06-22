@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16175D9E1957533AB489ED59189DCE39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		205204F9F21F4F548DF64A752DA85D26 /* LoaderPacmanAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00FBB46CB4E00D41F34F107F76FC7C /* LoaderPacmanAnimation.swift */; };
-		2EE09D70BE6A3373F68FC30B87579852 /* LoaderButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFFBFE78212B10B1A2C1646EDFEDD1B /* LoaderButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EF108B6376AB61F70650CF3DB7BE34F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		39B99AA9F61FEDA4A2FC9BCC4F87A665 /* Pods-LoaderButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E71446F1AC1F0FB7B812C5E363D6BA5 /* Pods-LoaderButton_Tests-dummy.m */; };
-		3FD31808068798965D87810257F1EA67 /* LoaderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF6B6184CA5010383502C3C714D0739 /* LoaderLayer.swift */; };
-		471C4A77CA85C92B7F99FA1007C65116 /* Pods-LoaderButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A312E32249373C4387C2A479D99D7919 /* Pods-LoaderButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BD200A3CB20B62E5293121CE2FA9E68 /* Pods-LoaderButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331A0C310163F4A1D871561E8AC93E28 /* Pods-LoaderButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		551BA957A74A64F041C535D786A80D48 /* LoaderRotateChaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8277DE98F6E9AEA13FD24D8C564686C /* LoaderRotateChaseAnimation.swift */; };
-		57837C13C0FA43F59AFB554DDDD5D473 /* LoaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAF3B17470264A638DA9FCA97B3BE13 /* LoaderButton.swift */; };
-		5A6B55695055E212D0F77AEACE67E1CC /* LoaderTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9424589A12B2B081B996105E2BC9DB /* LoaderTypes.swift */; };
-		61B994E73DAA85CA750FE98F9A84B503 /* LoaderShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A31CD0184899996A74A3BFFB4F380 /* LoaderShape.swift */; };
-		622D3257AD6997A933EF1946816CCD46 /* LoaderBallPulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DD4242235CB20EE6BCE5228069D93 /* LoaderBallPulseAnimation.swift */; };
-		6E0DF5D8C234DB0265578A3C54A26D8B /* LoaderCircleChaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EABECC3E735291B67D3A2160A515A /* LoaderCircleChaseAnimation.swift */; };
-		72DE80DCD789C67DF570780F609759DF /* LoaderBallPulseRotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A38F3B923F81D0237BF7A4387B17E8 /* LoaderBallPulseRotateAnimation.swift */; };
-		7488C28E7E3CB02A0E462FFD1849695B /* LoaderBallMultipleRotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B13580FF5B48D65265BFD8680BD17 /* LoaderBallMultipleRotateAnimation.swift */; };
-		840ECAE014C2C20D93609306B1DCD0E2 /* LoaderButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDCBF87EF61B02CFFFC767C0201F0C6 /* LoaderButton-dummy.m */; };
-		8AD1AFB1F8E0DE6E682438291E214BC2 /* LoaderCircleNarrowAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695EEB30B8A671FFDF7D5AA493D035DA /* LoaderCircleNarrowAnimation.swift */; };
-		A472FB19568A5BEACE443DE30448B5C5 /* LoaderButtonAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41010BC5B9798F694A36E2E6E99D64 /* LoaderButtonAnimationDelegate.swift */; };
-		A76741607B2F16DD32B41D31F8A1A968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D412454DDC7A24E03B214F175AE6AF4B /* Pods-LoaderButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 200B5B822D8A88E88421BBD32F3F1778 /* Pods-LoaderButton_Example-dummy.m */; };
-		D72DFF60F93EDD9F2284CF2FC19041CF /* LoaderBallBeatAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BF0BDDBA3F8D84E2B1F72E8BF88E5F /* LoaderBallBeatAnimation.swift */; };
-		E42C6D4C077EAF9DF843D5DE62EDDE54 /* LoaderLineFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BD066A9D24E8D60E1922045C6F6424 /* LoaderLineFadeAnimation.swift */; };
-		F0834775CCBC2AF3224C60D018377FE5 /* LoaderCircleRotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A10094B6B415E1F89818BE028F89 /* LoaderCircleRotateAnimation.swift */; };
-		F3E59729B5ACA4CDA1DE4FC5EEF407F2 /* LoaderBallRotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FCF34553F8C8B4D4FB1063C01868EE /* LoaderBallRotateAnimation.swift */; };
+		07050AD6E3066286699C1C1FE6B9C0D5 /* LoaderTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6794EFD3127BAF16596A966BA0F285 /* LoaderTypes.swift */; };
+		0CD3FD9F37B1B3E8E5EA3594B67E156E /* LoaderCircleNarrowAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6568C7A5615A6914B3BF57F5A071AD33 /* LoaderCircleNarrowAnimation.swift */; };
+		0D38DAF65BC73CBF34303E1DC137421A /* LoaderPacmanAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6987FDA132C8607534D65FC81534578 /* LoaderPacmanAnimation.swift */; };
+		1175983C5AF8451CC41FF8EBEBE8E45A /* LoaderShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF10C5EA858BE1FC364D07CA82DAE5 /* LoaderShape.swift */; };
+		17FA430E9823D3C7B56A4CC9E63B15FF /* LoaderCircleRotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F451B4ADD30C262A4D60629565580 /* LoaderCircleRotateAnimation.swift */; };
+		198D090A23CE9B71185DAA7B02E0FB81 /* LoaderBallPulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2871F66BBDA93E3901B3DD259D8A202F /* LoaderBallPulseAnimation.swift */; };
+		1C48B544C15B56907F44BDF94122FABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		23387045129990638DBD2930DAE710FA /* LoaderRotateChaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE46C9407926DE8982BD252399F82 /* LoaderRotateChaseAnimation.swift */; };
+		2EE09D70BE6A3373F68FC30B87579852 /* LoaderButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F82C9995A9BD54AE0731F59DE927AC /* LoaderButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		499B028F1C025D2F8BF8E02C92F2062D /* LoaderButtonAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01371A01B5A4A3E869A63B2CD9CDCB9 /* LoaderButtonAnimationDelegate.swift */; };
+		4BD200A3CB20B62E5293121CE2FA9E68 /* Pods-LoaderButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE84650C7463EE840690422C4B3CB6CB /* Pods-LoaderButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7753D2F8DA685A4E650F7BC3D89AAEB6 /* LoaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA332148611BEC696CBF3A3349FCA1F /* LoaderButton.swift */; };
+		7DB08B8CFD0AFB9C5B37C065176A3B75 /* Pods-LoaderButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D73A42832672A9F57BBD89141CDB31 /* Pods-LoaderButton_Tests-dummy.m */; };
+		989D73D88D739ADB639646C71A148DA8 /* LoaderBallPulseRotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92677CF75C792457D7223FAAF45E25EB /* LoaderBallPulseRotateAnimation.swift */; };
+		AEC68B1867889B4916D8B776FBF72E11 /* LoaderBallMultipleRotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5213A9B844C522F210E967716D8833 /* LoaderBallMultipleRotateAnimation.swift */; };
+		B3A3709DD273DF5A8288EF012EEE4F46 /* LoaderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954408B8BBD9899C68CDEA080850480 /* LoaderLayer.swift */; };
+		B6FA165AFAEB40EC997A3D361D13C672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BEFFF59137CF8551F8E3815673A04F5D /* LoaderBallBeatAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453851549B97F3393A21CCF96EABA161 /* LoaderBallBeatAnimation.swift */; };
+		C70DEACC68AE01B6FEE5932DDB9D7100 /* LoaderLineFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9093EFECDC1DE1F40F562F901DAD3708 /* LoaderLineFadeAnimation.swift */; };
+		D036807A7BA5A293E1DE468045660214 /* LoaderCircleChaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683A94AE94BB2BBE2050C36C76A2B87E /* LoaderCircleChaseAnimation.swift */; };
+		D412454DDC7A24E03B214F175AE6AF4B /* Pods-LoaderButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FA173C4DA37D49DD968CCE86F51F3 /* Pods-LoaderButton_Example-dummy.m */; };
+		D56504FE16ADA1333CACC57AF10DE40B /* Pods-LoaderButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5996FF29F85A3BC68F44D7155FED255 /* Pods-LoaderButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7B94E277433D613AAD1BDB27664A709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E826CD0FEF4F827EA99C3A17296DF166 /* LoaderButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA44FE7836A8198048D02BDB2B0EA8 /* LoaderButton-dummy.m */; };
+		FF1F887A15C6FAF9DA3B736FCD688D24 /* LoaderBallRotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08646EF54B000C379F37218AF0D1639C /* LoaderBallRotateAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,72 +42,74 @@
 			remoteGlobalIDString = F5EBC31CA86D45A57F1908398DDA3506;
 			remoteInfo = LoaderButton;
 		};
+		68FB2C32DFA1AE5A4102F97E8E886A0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7014C5846DB65B74BC72B7D674056D;
+			remoteInfo = "Pods-LoaderButton_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DEE382D43ED6706AEEECB4C9045C5C /* Pods-LoaderButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoaderButton_Tests-resources.sh"; sourceTree = "<group>"; };
-		0AFFBFE78212B10B1A2C1646EDFEDD1B /* LoaderButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoaderButton-umbrella.h"; sourceTree = "<group>"; };
-		0CDCBF87EF61B02CFFFC767C0201F0C6 /* LoaderButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoaderButton-dummy.m"; sourceTree = "<group>"; };
+		00B1157DB3251F92042250EDE1792C7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		05CD6CFE6ACC8EBE0A110DE8FD786A0D /* Pods-LoaderButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoaderButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		08646EF54B000C379F37218AF0D1639C /* LoaderBallRotateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallRotateAnimation.swift; sourceTree = "<group>"; };
+		0CA332148611BEC696CBF3A3349FCA1F /* LoaderButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoaderButton.swift; path = LoaderButton/LoaderButton.swift; sourceTree = "<group>"; };
 		197251FC97927A4C932AABF2B86ACF4C /* LoaderButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoaderButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		200B5B822D8A88E88421BBD32F3F1778 /* Pods-LoaderButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoaderButton_Example-dummy.m"; sourceTree = "<group>"; };
-		25BD066A9D24E8D60E1922045C6F6424 /* LoaderLineFadeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderLineFadeAnimation.swift; sourceTree = "<group>"; };
-		283DD4242235CB20EE6BCE5228069D93 /* LoaderBallPulseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallPulseAnimation.swift; sourceTree = "<group>"; };
-		2AAF3B17470264A638DA9FCA97B3BE13 /* LoaderButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderButton.swift; sourceTree = "<group>"; };
-		2D240ABCDB9E37111434AF689B3A84AE /* Pods-LoaderButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LoaderButton_Example.modulemap"; sourceTree = "<group>"; };
-		2E4AB03069C2C0C407B7AF2DB8B0F833 /* LoaderButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoaderButton-prefix.pch"; sourceTree = "<group>"; };
-		331A0C310163F4A1D871561E8AC93E28 /* Pods-LoaderButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoaderButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		3D00FBB46CB4E00D41F34F107F76FC7C /* LoaderPacmanAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderPacmanAnimation.swift; sourceTree = "<group>"; };
-		42E145F1C1067DCCBCB84EC2ED0C86A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F2A31CD0184899996A74A3BFFB4F380 /* LoaderShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderShape.swift; sourceTree = "<group>"; };
-		59FCF34553F8C8B4D4FB1063C01868EE /* LoaderBallRotateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallRotateAnimation.swift; sourceTree = "<group>"; };
-		5E71446F1AC1F0FB7B812C5E363D6BA5 /* Pods-LoaderButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoaderButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		624CBEC86C25B22632D8E8BBF42A97E5 /* LoaderButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LoaderButton.modulemap; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		695EEB30B8A671FFDF7D5AA493D035DA /* LoaderCircleNarrowAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderCircleNarrowAnimation.swift; sourceTree = "<group>"; };
-		6B42B5E82D3B7E816A560E563AD8EA3B /* Pods-LoaderButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoaderButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6DF6B6184CA5010383502C3C714D0739 /* LoaderLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderLayer.swift; sourceTree = "<group>"; };
-		6E9424589A12B2B081B996105E2BC9DB /* LoaderTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderTypes.swift; sourceTree = "<group>"; };
-		7FA37093249E386A78250368B3E48FB9 /* Pods-LoaderButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoaderButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		84C2A10094B6B415E1F89818BE028F89 /* LoaderCircleRotateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderCircleRotateAnimation.swift; sourceTree = "<group>"; };
-		8C8131867E8B2DBD4EE5FCA75404B43D /* Pods-LoaderButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoaderButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2871F66BBDA93E3901B3DD259D8A202F /* LoaderBallPulseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallPulseAnimation.swift; sourceTree = "<group>"; };
+		2ABA44FE7836A8198048D02BDB2B0EA8 /* LoaderButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoaderButton-dummy.m"; sourceTree = "<group>"; };
+		2B6FD80DA4E40837897FB5A4A4F8875C /* Pods-LoaderButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoaderButton_Example.modulemap"; sourceTree = "<group>"; };
+		39476CEA9B34CE0BD02EF678A0E4CBFB /* Pods-LoaderButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoaderButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B5213A9B844C522F210E967716D8833 /* LoaderBallMultipleRotateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallMultipleRotateAnimation.swift; sourceTree = "<group>"; };
+		3B6794EFD3127BAF16596A966BA0F285 /* LoaderTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoaderTypes.swift; path = LoaderButton/LoaderTypes.swift; sourceTree = "<group>"; };
+		3E9DA13D0857F59C22882454E939A121 /* Pods-LoaderButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoaderButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		416DC411F98581040CE772CC44E4571A /* Pods-LoaderButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoaderButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42215EB29587BCD5B7A0889DAA7E7204 /* LoaderButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoaderButton.modulemap; sourceTree = "<group>"; };
+		42E465550CE8DF18BEDFD637677CC35F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F82C9995A9BD54AE0731F59DE927AC /* LoaderButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoaderButton-umbrella.h"; sourceTree = "<group>"; };
+		453851549B97F3393A21CCF96EABA161 /* LoaderBallBeatAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallBeatAnimation.swift; sourceTree = "<group>"; };
+		55E4E7F6E981C92167FC7ED2224D8056 /* Pods-LoaderButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoaderButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		55EF10C5EA858BE1FC364D07CA82DAE5 /* LoaderShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoaderShape.swift; path = LoaderButton/LoaderShape.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60D73A42832672A9F57BBD89141CDB31 /* Pods-LoaderButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoaderButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		6568C7A5615A6914B3BF57F5A071AD33 /* LoaderCircleNarrowAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderCircleNarrowAnimation.swift; sourceTree = "<group>"; };
+		683A94AE94BB2BBE2050C36C76A2B87E /* LoaderCircleChaseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderCircleChaseAnimation.swift; sourceTree = "<group>"; };
+		6993B111C4943F96B400255918A27FCF /* Pods-LoaderButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoaderButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6F2FA173C4DA37D49DD968CCE86F51F3 /* Pods-LoaderButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoaderButton_Example-dummy.m"; sourceTree = "<group>"; };
+		7BBD4BAA2E90652C34769D3ACE31E878 /* Pods-LoaderButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoaderButton_Tests.modulemap"; sourceTree = "<group>"; };
+		7C38A4147D0992483BDF6287C77F3332 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C73A7C267DE4A6B3CCCA959112E9E61 /* LoaderButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LoaderButton.podspec; sourceTree = "<group>"; };
 		8EFD7E249F13A0B00917CBCDE74E6356 /* Pods_LoaderButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoaderButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FA1622932E59ECA37140518E6A0230F /* Pods-LoaderButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoaderButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		900CC47A55604FBDF7FD44F6B269E995 /* Pods-LoaderButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoaderButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9093EFECDC1DE1F40F562F901DAD3708 /* LoaderLineFadeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderLineFadeAnimation.swift; sourceTree = "<group>"; };
+		92677CF75C792457D7223FAAF45E25EB /* LoaderBallPulseRotateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallPulseRotateAnimation.swift; sourceTree = "<group>"; };
 		926EC69D4CB6D9E257B01BCEF55743A1 /* Pods_LoaderButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoaderButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98BF0BDDBA3F8D84E2B1F72E8BF88E5F /* LoaderBallBeatAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallBeatAnimation.swift; sourceTree = "<group>"; };
-		A24B13580FF5B48D65265BFD8680BD17 /* LoaderBallMultipleRotateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallMultipleRotateAnimation.swift; sourceTree = "<group>"; };
-		A2A38F3B923F81D0237BF7A4387B17E8 /* LoaderBallPulseRotateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderBallPulseRotateAnimation.swift; sourceTree = "<group>"; };
-		A312E32249373C4387C2A479D99D7919 /* Pods-LoaderButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoaderButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A9B99FED49826DA249C08882D4C895BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD5A620FD730937A0CDA6E433C1255FF /* Pods-LoaderButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoaderButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BE9F96651E8B1363F0CB452F3047C1B6 /* Pods-LoaderButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LoaderButton_Tests.modulemap"; sourceTree = "<group>"; };
-		BECFF72F6CEBDB06E136CB3EEA511C6F /* Pods-LoaderButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoaderButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7ED810725CADA2E9FD751CDDE54D315 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D11EABECC3E735291B67D3A2160A515A /* LoaderCircleChaseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderCircleChaseAnimation.swift; sourceTree = "<group>"; };
-		D7F2F986699C5F62DA7294A8DB3E4E84 /* Pods-LoaderButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoaderButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8277DE98F6E9AEA13FD24D8C564686C /* LoaderRotateChaseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderRotateChaseAnimation.swift; sourceTree = "<group>"; };
-		DE41010BC5B9798F694A36E2E6E99D64 /* LoaderButtonAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderButtonAnimationDelegate.swift; sourceTree = "<group>"; };
-		E1FC788EF0F806E30FCB0D1BE0C700A4 /* LoaderButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoaderButton.xcconfig; sourceTree = "<group>"; };
-		ECA59DB812C57020BF64E84EEC34C1B2 /* Pods-LoaderButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoaderButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F398351AF6773B24878175895E11AB25 /* Pods-LoaderButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoaderButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F510EE4B57E4EECBCAC518804034BA01 /* Pods-LoaderButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoaderButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FA3C1C7782FDF6E5EAC9D6AB2C2A78C5 /* Pods-LoaderButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoaderButton_Example-resources.sh"; sourceTree = "<group>"; };
+		976840E0B6DC79E7918EDF8C995216E1 /* Pods-LoaderButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoaderButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A01371A01B5A4A3E869A63B2CD9CDCB9 /* LoaderButtonAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderButtonAnimationDelegate.swift; sourceTree = "<group>"; };
+		A2517C7FE3FFDDA05982AD0A12566140 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60FF41429632762C1E53140F5CB3DE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B476AC57D859B54AE78CA2D3BC973B37 /* Pods-LoaderButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoaderButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B6987FDA132C8607534D65FC81534578 /* LoaderPacmanAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderPacmanAnimation.swift; sourceTree = "<group>"; };
+		BC6BE46C9407926DE8982BD252399F82 /* LoaderRotateChaseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderRotateChaseAnimation.swift; sourceTree = "<group>"; };
+		BE84650C7463EE840690422C4B3CB6CB /* Pods-LoaderButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoaderButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		C7A6E3BCB9EA1AF9922663B5D693F4F1 /* Pods-LoaderButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoaderButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C954408B8BBD9899C68CDEA080850480 /* LoaderLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoaderLayer.swift; path = LoaderButton/LoaderLayer.swift; sourceTree = "<group>"; };
+		CE0182D5502A96F54C57A3BC93ED5261 /* Pods-LoaderButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoaderButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		CF4E7ED58EDD76762A25ED3AEA249378 /* Pods-LoaderButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoaderButton_Example-resources.sh"; sourceTree = "<group>"; };
+		E224AB35E0A6F3C5751BDF1C63741345 /* LoaderButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoaderButton.xcconfig; sourceTree = "<group>"; };
+		F07070DBE80835D957938BC2DA2F3604 /* LoaderButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoaderButton-prefix.pch"; sourceTree = "<group>"; };
+		F19F451B4ADD30C262A4D60629565580 /* LoaderCircleRotateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoaderCircleRotateAnimation.swift; sourceTree = "<group>"; };
+		F5996FF29F85A3BC68F44D7155FED255 /* Pods-LoaderButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoaderButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2999D81AD75B908B446148B1E049EF18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A76741607B2F16DD32B41D31F8A1A968 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5C0066A997AA69FEBC613DED9F2C384D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EF108B6376AB61F70650CF3DB7BE34F /* Foundation.framework in Frameworks */,
+				E7B94E277433D613AAD1BDB27664A709 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,74 +117,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16175D9E1957533AB489ED59189DCE39 /* Foundation.framework in Frameworks */,
+				B6FA165AFAEB40EC997A3D361D13C672 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18B168003FD52080688D2303CE7C752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C48B544C15B56907F44BDF94122FABE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E3DF1ABF6DAB76752BA3C6F04128409 /* Pods-LoaderButton_Example */ = {
+		01E132526ACAE41BEA14932E0EA47607 /* Pods-LoaderButton_Example */ = {
 			isa = PBXGroup;
 			children = (
-				A9B99FED49826DA249C08882D4C895BB /* Info.plist */,
-				2D240ABCDB9E37111434AF689B3A84AE /* Pods-LoaderButton_Example.modulemap */,
-				BECFF72F6CEBDB06E136CB3EEA511C6F /* Pods-LoaderButton_Example-acknowledgements.markdown */,
-				F398351AF6773B24878175895E11AB25 /* Pods-LoaderButton_Example-acknowledgements.plist */,
-				200B5B822D8A88E88421BBD32F3F1778 /* Pods-LoaderButton_Example-dummy.m */,
-				AD5A620FD730937A0CDA6E433C1255FF /* Pods-LoaderButton_Example-frameworks.sh */,
-				FA3C1C7782FDF6E5EAC9D6AB2C2A78C5 /* Pods-LoaderButton_Example-resources.sh */,
-				331A0C310163F4A1D871561E8AC93E28 /* Pods-LoaderButton_Example-umbrella.h */,
-				7FA37093249E386A78250368B3E48FB9 /* Pods-LoaderButton_Example.debug.xcconfig */,
-				F510EE4B57E4EECBCAC518804034BA01 /* Pods-LoaderButton_Example.release.xcconfig */,
+				A2517C7FE3FFDDA05982AD0A12566140 /* Info.plist */,
+				2B6FD80DA4E40837897FB5A4A4F8875C /* Pods-LoaderButton_Example.modulemap */,
+				39476CEA9B34CE0BD02EF678A0E4CBFB /* Pods-LoaderButton_Example-acknowledgements.markdown */,
+				C7A6E3BCB9EA1AF9922663B5D693F4F1 /* Pods-LoaderButton_Example-acknowledgements.plist */,
+				6F2FA173C4DA37D49DD968CCE86F51F3 /* Pods-LoaderButton_Example-dummy.m */,
+				55E4E7F6E981C92167FC7ED2224D8056 /* Pods-LoaderButton_Example-frameworks.sh */,
+				CF4E7ED58EDD76762A25ED3AEA249378 /* Pods-LoaderButton_Example-resources.sh */,
+				BE84650C7463EE840690422C4B3CB6CB /* Pods-LoaderButton_Example-umbrella.h */,
+				B476AC57D859B54AE78CA2D3BC973B37 /* Pods-LoaderButton_Example.debug.xcconfig */,
+				6993B111C4943F96B400255918A27FCF /* Pods-LoaderButton_Example.release.xcconfig */,
 			);
 			name = "Pods-LoaderButton_Example";
 			path = "Target Support Files/Pods-LoaderButton_Example";
 			sourceTree = "<group>";
 		};
-		0F8A53050D2DCC6EF9C4636CFFCD908B /* LoaderButton */ = {
+		18B74C311586E13E10EDF173F118D751 /* Animatons */ = {
 			isa = PBXGroup;
 			children = (
-				2AAF3B17470264A638DA9FCA97B3BE13 /* LoaderButton.swift */,
-				6DF6B6184CA5010383502C3C714D0739 /* LoaderLayer.swift */,
-				4F2A31CD0184899996A74A3BFFB4F380 /* LoaderShape.swift */,
-				6E9424589A12B2B081B996105E2BC9DB /* LoaderTypes.swift */,
-				4AA94DF57628C9831022DB41C842370E /* Animatons */,
+				453851549B97F3393A21CCF96EABA161 /* LoaderBallBeatAnimation.swift */,
+				3B5213A9B844C522F210E967716D8833 /* LoaderBallMultipleRotateAnimation.swift */,
+				2871F66BBDA93E3901B3DD259D8A202F /* LoaderBallPulseAnimation.swift */,
+				92677CF75C792457D7223FAAF45E25EB /* LoaderBallPulseRotateAnimation.swift */,
+				08646EF54B000C379F37218AF0D1639C /* LoaderBallRotateAnimation.swift */,
+				A01371A01B5A4A3E869A63B2CD9CDCB9 /* LoaderButtonAnimationDelegate.swift */,
+				683A94AE94BB2BBE2050C36C76A2B87E /* LoaderCircleChaseAnimation.swift */,
+				6568C7A5615A6914B3BF57F5A071AD33 /* LoaderCircleNarrowAnimation.swift */,
+				F19F451B4ADD30C262A4D60629565580 /* LoaderCircleRotateAnimation.swift */,
+				9093EFECDC1DE1F40F562F901DAD3708 /* LoaderLineFadeAnimation.swift */,
+				B6987FDA132C8607534D65FC81534578 /* LoaderPacmanAnimation.swift */,
+				BC6BE46C9407926DE8982BD252399F82 /* LoaderRotateChaseAnimation.swift */,
 			);
-			path = LoaderButton;
+			name = Animatons;
+			path = LoaderButton/Animatons;
 			sourceTree = "<group>";
 		};
-		4AA94DF57628C9831022DB41C842370E /* Animatons */ = {
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				98BF0BDDBA3F8D84E2B1F72E8BF88E5F /* LoaderBallBeatAnimation.swift */,
-				A24B13580FF5B48D65265BFD8680BD17 /* LoaderBallMultipleRotateAnimation.swift */,
-				283DD4242235CB20EE6BCE5228069D93 /* LoaderBallPulseAnimation.swift */,
-				A2A38F3B923F81D0237BF7A4387B17E8 /* LoaderBallPulseRotateAnimation.swift */,
-				59FCF34553F8C8B4D4FB1063C01868EE /* LoaderBallRotateAnimation.swift */,
-				DE41010BC5B9798F694A36E2E6E99D64 /* LoaderButtonAnimationDelegate.swift */,
-				D11EABECC3E735291B67D3A2160A515A /* LoaderCircleChaseAnimation.swift */,
-				695EEB30B8A671FFDF7D5AA493D035DA /* LoaderCircleNarrowAnimation.swift */,
-				84C2A10094B6B415E1F89818BE028F89 /* LoaderCircleRotateAnimation.swift */,
-				25BD066A9D24E8D60E1922045C6F6424 /* LoaderLineFadeAnimation.swift */,
-				3D00FBB46CB4E00D41F34F107F76FC7C /* LoaderPacmanAnimation.swift */,
-				D8277DE98F6E9AEA13FD24D8C564686C /* LoaderRotateChaseAnimation.swift */,
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
-			path = Animatons;
-			sourceTree = "<group>";
-		};
-		5757BF60FCA7BD7AFB14AC6D99D29A9E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C7ED810725CADA2E9FD751CDDE54D315 /* Info.plist */,
-				624CBEC86C25B22632D8E8BBF42A97E5 /* LoaderButton.modulemap */,
-				E1FC788EF0F806E30FCB0D1BE0C700A4 /* LoaderButton.xcconfig */,
-				0CDCBF87EF61B02CFFFC767C0201F0C6 /* LoaderButton-dummy.m */,
-				2E4AB03069C2C0C407B7AF2DB8B0F833 /* LoaderButton-prefix.pch */,
-				0AFFBFE78212B10B1A2C1646EDFEDD1B /* LoaderButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LoaderButton";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		710E0D6B0702D24943445F33284B00F7 /* Products */ = {
@@ -195,30 +188,59 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7817BA38F09895305CDA045A6DABF009 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A60FF41429632762C1E53140F5CB3DE5 /* Info.plist */,
+				42215EB29587BCD5B7A0889DAA7E7204 /* LoaderButton.modulemap */,
+				E224AB35E0A6F3C5751BDF1C63741345 /* LoaderButton.xcconfig */,
+				2ABA44FE7836A8198048D02BDB2B0EA8 /* LoaderButton-dummy.m */,
+				F07070DBE80835D957938BC2DA2F3604 /* LoaderButton-prefix.pch */,
+				42F82C9995A9BD54AE0731F59DE927AC /* LoaderButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LoaderButton";
+			sourceTree = "<group>";
+		};
+		78DA2A21E84D1A3456D836B25A404D83 /* Pods-LoaderButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				42E465550CE8DF18BEDFD637677CC35F /* Info.plist */,
+				7BBD4BAA2E90652C34769D3ACE31E878 /* Pods-LoaderButton_Tests.modulemap */,
+				3E9DA13D0857F59C22882454E939A121 /* Pods-LoaderButton_Tests-acknowledgements.markdown */,
+				416DC411F98581040CE772CC44E4571A /* Pods-LoaderButton_Tests-acknowledgements.plist */,
+				60D73A42832672A9F57BBD89141CDB31 /* Pods-LoaderButton_Tests-dummy.m */,
+				976840E0B6DC79E7918EDF8C995216E1 /* Pods-LoaderButton_Tests-frameworks.sh */,
+				CE0182D5502A96F54C57A3BC93ED5261 /* Pods-LoaderButton_Tests-resources.sh */,
+				F5996FF29F85A3BC68F44D7155FED255 /* Pods-LoaderButton_Tests-umbrella.h */,
+				05CD6CFE6ACC8EBE0A110DE8FD786A0D /* Pods-LoaderButton_Tests.debug.xcconfig */,
+				900CC47A55604FBDF7FD44F6B269E995 /* Pods-LoaderButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-LoaderButton_Tests";
+			path = "Target Support Files/Pods-LoaderButton_Tests";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				86E786FEDFC1D1DF56E2E3C5F40C2803 /* Development Pods */,
+				FE27139E6D085370E97AE68633E72485 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				710E0D6B0702D24943445F33284B00F7 /* Products */,
 				E23F3222C05E1AD781F3D4956A075703 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86E786FEDFC1D1DF56E2E3C5F40C2803 /* Development Pods */ = {
+		97852177C62EE3087EFCD75857DE86F3 /* LoaderButton */ = {
 			isa = PBXGroup;
 			children = (
-				A23E482650660E1DB1DCA7F1FE304DBF /* LoaderButton */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A23E482650660E1DB1DCA7F1FE304DBF /* LoaderButton */ = {
-			isa = PBXGroup;
-			children = (
-				0F8A53050D2DCC6EF9C4636CFFCD908B /* LoaderButton */,
-				5757BF60FCA7BD7AFB14AC6D99D29A9E /* Support Files */,
+				0CA332148611BEC696CBF3A3349FCA1F /* LoaderButton.swift */,
+				C954408B8BBD9899C68CDEA080850480 /* LoaderLayer.swift */,
+				55EF10C5EA858BE1FC364D07CA82DAE5 /* LoaderShape.swift */,
+				3B6794EFD3127BAF16596A966BA0F285 /* LoaderTypes.swift */,
+				18B74C311586E13E10EDF173F118D751 /* Animatons */,
+				E7880301DDC24F159185C48D7CDEC674 /* Pod */,
+				7817BA38F09895305CDA045A6DABF009 /* Support Files */,
 			);
 			name = LoaderButton;
 			path = ../..;
@@ -227,44 +249,36 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		E23F3222C05E1AD781F3D4956A075703 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E3DF1ABF6DAB76752BA3C6F04128409 /* Pods-LoaderButton_Example */,
-				E5795F7899F06ADF77109DE5443E8131 /* Pods-LoaderButton_Tests */,
+				01E132526ACAE41BEA14932E0EA47607 /* Pods-LoaderButton_Example */,
+				78DA2A21E84D1A3456D836B25A404D83 /* Pods-LoaderButton_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E5795F7899F06ADF77109DE5443E8131 /* Pods-LoaderButton_Tests */ = {
+		E7880301DDC24F159185C48D7CDEC674 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				42E145F1C1067DCCBCB84EC2ED0C86A4 /* Info.plist */,
-				BE9F96651E8B1363F0CB452F3047C1B6 /* Pods-LoaderButton_Tests.modulemap */,
-				8C8131867E8B2DBD4EE5FCA75404B43D /* Pods-LoaderButton_Tests-acknowledgements.markdown */,
-				ECA59DB812C57020BF64E84EEC34C1B2 /* Pods-LoaderButton_Tests-acknowledgements.plist */,
-				5E71446F1AC1F0FB7B812C5E363D6BA5 /* Pods-LoaderButton_Tests-dummy.m */,
-				8FA1622932E59ECA37140518E6A0230F /* Pods-LoaderButton_Tests-frameworks.sh */,
-				09DEE382D43ED6706AEEECB4C9045C5C /* Pods-LoaderButton_Tests-resources.sh */,
-				A312E32249373C4387C2A479D99D7919 /* Pods-LoaderButton_Tests-umbrella.h */,
-				D7F2F986699C5F62DA7294A8DB3E4E84 /* Pods-LoaderButton_Tests.debug.xcconfig */,
-				6B42B5E82D3B7E816A560E563AD8EA3B /* Pods-LoaderButton_Tests.release.xcconfig */,
+				7C38A4147D0992483BDF6287C77F3332 /* LICENSE */,
+				7C73A7C267DE4A6B3CCCA959112E9E61 /* LoaderButton.podspec */,
+				00B1157DB3251F92042250EDE1792C7D /* README.md */,
 			);
-			name = "Pods-LoaderButton_Tests";
-			path = "Target Support Files/Pods-LoaderButton_Tests";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FE27139E6D085370E97AE68633E72485 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97852177C62EE3087EFCD75857DE86F3 /* LoaderButton */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,14 +292,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75B7B7E0A7793E34EAEA4C920E323EA6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				471C4A77CA85C92B7F99FA1007C65116 /* Pods-LoaderButton_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D1D3D4683E32EFA40D6821AD7EB730E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,31 +300,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB8B6BE6574A334A3BAB3D6E08C3D84B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56504FE16ADA1333CACC57AF10DE40B /* Pods-LoaderButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5B619BE74BF73754D663371C7A8B07AB /* Pods-LoaderButton_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C6C7C4E5903228C30770B0FC11430B8 /* Build configuration list for PBXNativeTarget "Pods-LoaderButton_Tests" */;
-			buildPhases = (
-				77A3C91014A40CF04D73DF3E38D7AC2B /* Sources */,
-				2999D81AD75B908B446148B1E049EF18 /* Frameworks */,
-				75B7B7E0A7793E34EAEA4C920E323EA6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-LoaderButton_Tests";
-			productName = "Pods-LoaderButton_Tests";
-			productReference = 8EFD7E249F13A0B00917CBCDE74E6356 /* Pods_LoaderButton_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		F5EBC31CA86D45A57F1908398DDA3506 /* LoaderButton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4245B50674024DF2058577966B385E24 /* Build configuration list for PBXNativeTarget "LoaderButton" */;
 			buildPhases = (
-				34CF31D6CDE4AE359028D3A0F9F3DFFB /* Sources */,
+				C367C75E3EC27A0C4375CFA8ACB9D861 /* Sources */,
 				8584CD112500A651C4B4C984F6153A71 /* Frameworks */,
 				4BAF58C8B296A61F892612526BA4BB34 /* Headers */,
 			);
@@ -349,13 +346,31 @@
 			productReference = 926EC69D4CB6D9E257B01BCEF55743A1 /* Pods_LoaderButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FCF4F10B0B89A1945E414A383CD158A8 /* Pods-LoaderButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8F4A4AD918F91DC7F7EEBBB89AF115 /* Build configuration list for PBXNativeTarget "Pods-LoaderButton_Tests" */;
+			buildPhases = (
+				56EC183FC8435FEE5DFF3E875745EFB0 /* Sources */,
+				B18B168003FD52080688D2303CE7C752 /* Frameworks */,
+				FB8B6BE6574A334A3BAB3D6E08C3D84B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D4F81D21498DF732BB43B140C1CCE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-LoaderButton_Tests";
+			productName = "Pods-LoaderButton_Tests";
+			productReference = 8EFD7E249F13A0B00917CBCDE74E6356 /* Pods_LoaderButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -372,41 +387,41 @@
 			targets = (
 				F5EBC31CA86D45A57F1908398DDA3506 /* LoaderButton */,
 				FB7014C5846DB65B74BC72B7D674056D /* Pods-LoaderButton_Example */,
-				5B619BE74BF73754D663371C7A8B07AB /* Pods-LoaderButton_Tests */,
+				FCF4F10B0B89A1945E414A383CD158A8 /* Pods-LoaderButton_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		34CF31D6CDE4AE359028D3A0F9F3DFFB /* Sources */ = {
+		56EC183FC8435FEE5DFF3E875745EFB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72DFF60F93EDD9F2284CF2FC19041CF /* LoaderBallBeatAnimation.swift in Sources */,
-				7488C28E7E3CB02A0E462FFD1849695B /* LoaderBallMultipleRotateAnimation.swift in Sources */,
-				622D3257AD6997A933EF1946816CCD46 /* LoaderBallPulseAnimation.swift in Sources */,
-				72DE80DCD789C67DF570780F609759DF /* LoaderBallPulseRotateAnimation.swift in Sources */,
-				F3E59729B5ACA4CDA1DE4FC5EEF407F2 /* LoaderBallRotateAnimation.swift in Sources */,
-				840ECAE014C2C20D93609306B1DCD0E2 /* LoaderButton-dummy.m in Sources */,
-				57837C13C0FA43F59AFB554DDDD5D473 /* LoaderButton.swift in Sources */,
-				A472FB19568A5BEACE443DE30448B5C5 /* LoaderButtonAnimationDelegate.swift in Sources */,
-				6E0DF5D8C234DB0265578A3C54A26D8B /* LoaderCircleChaseAnimation.swift in Sources */,
-				8AD1AFB1F8E0DE6E682438291E214BC2 /* LoaderCircleNarrowAnimation.swift in Sources */,
-				F0834775CCBC2AF3224C60D018377FE5 /* LoaderCircleRotateAnimation.swift in Sources */,
-				3FD31808068798965D87810257F1EA67 /* LoaderLayer.swift in Sources */,
-				E42C6D4C077EAF9DF843D5DE62EDDE54 /* LoaderLineFadeAnimation.swift in Sources */,
-				205204F9F21F4F548DF64A752DA85D26 /* LoaderPacmanAnimation.swift in Sources */,
-				551BA957A74A64F041C535D786A80D48 /* LoaderRotateChaseAnimation.swift in Sources */,
-				61B994E73DAA85CA750FE98F9A84B503 /* LoaderShape.swift in Sources */,
-				5A6B55695055E212D0F77AEACE67E1CC /* LoaderTypes.swift in Sources */,
+				7DB08B8CFD0AFB9C5B37C065176A3B75 /* Pods-LoaderButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77A3C91014A40CF04D73DF3E38D7AC2B /* Sources */ = {
+		C367C75E3EC27A0C4375CFA8ACB9D861 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39B99AA9F61FEDA4A2FC9BCC4F87A665 /* Pods-LoaderButton_Tests-dummy.m in Sources */,
+				BEFFF59137CF8551F8E3815673A04F5D /* LoaderBallBeatAnimation.swift in Sources */,
+				AEC68B1867889B4916D8B776FBF72E11 /* LoaderBallMultipleRotateAnimation.swift in Sources */,
+				198D090A23CE9B71185DAA7B02E0FB81 /* LoaderBallPulseAnimation.swift in Sources */,
+				989D73D88D739ADB639646C71A148DA8 /* LoaderBallPulseRotateAnimation.swift in Sources */,
+				FF1F887A15C6FAF9DA3B736FCD688D24 /* LoaderBallRotateAnimation.swift in Sources */,
+				E826CD0FEF4F827EA99C3A17296DF166 /* LoaderButton-dummy.m in Sources */,
+				7753D2F8DA685A4E650F7BC3D89AAEB6 /* LoaderButton.swift in Sources */,
+				499B028F1C025D2F8BF8E02C92F2062D /* LoaderButtonAnimationDelegate.swift in Sources */,
+				D036807A7BA5A293E1DE468045660214 /* LoaderCircleChaseAnimation.swift in Sources */,
+				0CD3FD9F37B1B3E8E5EA3594B67E156E /* LoaderCircleNarrowAnimation.swift in Sources */,
+				17FA430E9823D3C7B56A4CC9E63B15FF /* LoaderCircleRotateAnimation.swift in Sources */,
+				B3A3709DD273DF5A8288EF012EEE4F46 /* LoaderLayer.swift in Sources */,
+				C70DEACC68AE01B6FEE5932DDB9D7100 /* LoaderLineFadeAnimation.swift in Sources */,
+				0D38DAF65BC73CBF34303E1DC137421A /* LoaderPacmanAnimation.swift in Sources */,
+				23387045129990638DBD2930DAE710FA /* LoaderRotateChaseAnimation.swift in Sources */,
+				1175983C5AF8451CC41FF8EBEBE8E45A /* LoaderShape.swift in Sources */,
+				07050AD6E3066286699C1C1FE6B9C0D5 /* LoaderTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +436,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		02D4F81D21498DF732BB43B140C1CCE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LoaderButton_Example";
+			target = FB7014C5846DB65B74BC72B7D674056D /* Pods-LoaderButton_Example */;
+			targetProxy = 68FB2C32DFA1AE5A4102F97E8E886A0E /* PBXContainerItemProxy */;
+		};
 		3BA0541DEF2395841F37574957C8C3B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LoaderButton;
@@ -430,128 +451,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D779089B78B7180AC9C367F1D08678A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B42B5E82D3B7E816A560E563AD8EA3B /* Pods-LoaderButton_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LoaderButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoaderButton_Tests/Pods-LoaderButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LoaderButton_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		35457B0C54935DDC7691475F872CDA0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7F2F986699C5F62DA7294A8DB3E4E84 /* Pods-LoaderButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LoaderButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoaderButton_Tests/Pods-LoaderButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LoaderButton_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3D43953BBE5E6C9342D23DF537093E21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1FC788EF0F806E30FCB0D1BE0C700A4 /* LoaderButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LoaderButton/LoaderButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LoaderButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LoaderButton/LoaderButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LoaderButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -560,17 +476,20 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -579,87 +498,216 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		524A086E356378CDF96B790822B716BA /* Debug */ = {
+		564B7B29FBFC2171E53F0B749D837894 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FA37093249E386A78250368B3E48FB9 /* Pods-LoaderButton_Example.debug.xcconfig */;
+			baseConfigurationReference = 6993B111C4943F96B400255918A27FCF /* Pods-LoaderButton_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-LoaderButton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LoaderButton_Example/Pods-LoaderButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LoaderButton_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		6DB520820ACCD5A0DD64475BE251DE65 /* Debug */ = {
+		664224D99895D86D534EC56CB285B270 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1FC788EF0F806E30FCB0D1BE0C700A4 /* LoaderButton.xcconfig */;
+			baseConfigurationReference = E224AB35E0A6F3C5751BDF1C63741345 /* LoaderButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LoaderButton/LoaderButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/LoaderButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/LoaderButton/LoaderButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_MODULE_NAME = LoaderButton;
 				PRODUCT_NAME = LoaderButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82F66E482FB01F68AE75BF175EE46974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B476AC57D859B54AE78CA2D3BC973B37 /* Pods-LoaderButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoaderButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoaderButton_Example/Pods-LoaderButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BF2FEAEE25D7C06B18A8F637A51B8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900CC47A55604FBDF7FD44F6B269E995 /* Pods-LoaderButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoaderButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoaderButton_Tests/Pods-LoaderButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A743FD00ADD02C46A1532EB6C835A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CD6CFE6ACC8EBE0A110DE8FD786A0D /* Pods-LoaderButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoaderButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoaderButton_Tests/Pods-LoaderButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1978807C9DCB8267F1701A8EBF4CF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E224AB35E0A6F3C5751BDF1C63741345 /* LoaderButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LoaderButton/LoaderButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoaderButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LoaderButton/LoaderButton.modulemap";
+				PRODUCT_MODULE_NAME = LoaderButton;
+				PRODUCT_NAME = LoaderButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -668,60 +716,23 @@
 			};
 			name = Debug;
 		};
-		7DA6068C794BB9B818A568DAE6EDAD2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F510EE4B57E4EECBCAC518804034BA01 /* Pods-LoaderButton_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LoaderButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoaderButton_Example/Pods-LoaderButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LoaderButton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -730,34 +741,37 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -767,8 +781,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
-				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -776,17 +790,8 @@
 		4245B50674024DF2058577966B385E24 /* Build configuration list for PBXNativeTarget "LoaderButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DB520820ACCD5A0DD64475BE251DE65 /* Debug */,
-				3D43953BBE5E6C9342D23DF537093E21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C6C7C4E5903228C30770B0FC11430B8 /* Build configuration list for PBXNativeTarget "Pods-LoaderButton_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35457B0C54935DDC7691475F872CDA0A /* Debug */,
-				1D779089B78B7180AC9C367F1D08678A /* Release */,
+				A1978807C9DCB8267F1701A8EBF4CF60 /* Debug */,
+				664224D99895D86D534EC56CB285B270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -794,8 +799,17 @@
 		B28922CB216001741C7215A05F697E97 /* Build configuration list for PBXNativeTarget "Pods-LoaderButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				524A086E356378CDF96B790822B716BA /* Debug */,
-				7DA6068C794BB9B818A568DAE6EDAD2C /* Release */,
+				82F66E482FB01F68AE75BF175EE46974 /* Debug */,
+				564B7B29FBFC2171E53F0B749D837894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8F4A4AD918F91DC7F7EEBBB89AF115 /* Build configuration list for PBXNativeTarget "Pods-LoaderButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A743FD00ADD02C46A1532EB6C835A77 /* Debug */,
+				8BF2FEAEE25D7C06B18A8F637A51B8FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

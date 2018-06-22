@@ -54,6 +54,16 @@ open class LoaderButton: UIButton {
     }
 
     // MARK: - Initializers
+    public init() {
+        super.init(frame: .zero)
+        setup()
+    }
+
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        setup()
+    }
+
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
