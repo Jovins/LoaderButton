@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,14 +18,196 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="JeS-TY-Rvm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsZ-J3-sbx" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="105" width="300" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.35989342639999999" blue="0.21941648969999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="qpH-we-J89"/>
+                                    <constraint firstAttribute="height" constant="40" id="rhW-Q9-OFW"/>
+                                </constraints>
+                                <state key="normal" title="LineFadeAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jWR-ch-4cn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NqF-sL-tPf" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="50" width="300" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SZR-TX-Wod"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="xfN-1c-4Wz"/>
+                                </constraints>
+                                <state key="normal" title="RotateChaseAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fPR-Ud-sjd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dN5-sE-8rw" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="160" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.7843137255" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="C3v-an-0LT"/>
+                                    <constraint firstAttribute="height" constant="40" id="P9n-1R-smY"/>
+                                </constraints>
+                                <state key="normal" title="CircleChaseAinmation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cfX-5x-v4L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZP-i6-8hf" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="215" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.83282667399999999" green="0.04420521434" blue="0.61803210269999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6Sz-9i-vr2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="uh2-h5-DAW"/>
+                                </constraints>
+                                <state key="normal" title="CircleNarrowAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JEV-2Z-AyA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cl-IE-AlF" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="270" width="300" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.4763629043" blue="0.23651452009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="9Lk-gM-BuX"/>
+                                    <constraint firstAttribute="height" constant="40" id="Q0s-7s-QWo"/>
+                                </constraints>
+                                <state key="normal" title="BallClipRotateAnimaton">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cax-wf-eal"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLR-os-13m" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="325" width="300" height="40"/>
+                                <color key="backgroundColor" red="0.79346092050000006" green="0.14322495709999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ny5-Sn-ZmW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="voE-aZ-lYh"/>
+                                </constraints>
+                                <state key="normal" title="BallPulseAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FfD-jt-Bv0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4y-42-VjI" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="380" width="300" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.1213617426" blue="0.91806441439999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="d4h-yc-78I"/>
+                                    <constraint firstAttribute="height" constant="40" id="sB9-hw-gkc"/>
+                                </constraints>
+                                <state key="normal" title="BallPulseRotateAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AKD-02-q5o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lzk-93-bwQ" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="435" width="300" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.17010129190000001" blue="0.67188054590000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="D1d-TW-X8f"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="NFe-8C-iqH"/>
+                                </constraints>
+                                <state key="normal" title="BallMultipleRotateAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Inv-Wl-MSa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycq-Mq-RJj" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="490" width="300" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.44837751269999998" blue="0.57392676249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="XQa-ps-pEK"/>
+                                    <constraint firstAttribute="height" constant="40" id="bc0-fn-yFL"/>
+                                </constraints>
+                                <state key="normal" title="BallRotateAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FBN-HS-xew"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0v-PP-TUI" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="545" width="300" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.29438253469999998" blue="0.4541738803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8E9-IW-o34"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="JtZ-DT-VMy"/>
+                                </constraints>
+                                <state key="normal" title="BallBeatAnimation">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OsK-RI-fvi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6v-jZ-lpi" customClass="LoaderButton" customModule="LoaderButton">
+                                <rect key="frame" x="37" y="600" width="300" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.2035261028" blue="0.18074334859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Wh6-fg-bCT"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="dhP-wK-Xdh"/>
+                                </constraints>
+                                <state key="normal" title="PacmanAnimaton">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loaderButtonDidClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5SH-1A-qt2"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jsZ-J3-sbx" firstAttribute="top" secondItem="NqF-sL-tPf" secondAttribute="bottom" constant="15" id="0As-80-1UV"/>
+                            <constraint firstItem="Lzk-93-bwQ" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="1pT-65-fgE"/>
+                            <constraint firstItem="m6v-jZ-lpi" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="24B-Eo-Vlk"/>
+                            <constraint firstItem="ycq-Mq-RJj" firstAttribute="top" secondItem="Lzk-93-bwQ" secondAttribute="bottom" constant="15" id="60j-9q-jch"/>
+                            <constraint firstItem="V0v-PP-TUI" firstAttribute="top" secondItem="ycq-Mq-RJj" secondAttribute="bottom" constant="15" id="CtK-x4-dzF"/>
+                            <constraint firstItem="jsZ-J3-sbx" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="IQZ-ja-R6T"/>
+                            <constraint firstItem="Lzk-93-bwQ" firstAttribute="top" secondItem="q4y-42-VjI" secondAttribute="bottom" constant="15" id="KXO-Jp-3NK"/>
+                            <constraint firstItem="V0v-PP-TUI" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="TxO-YF-9lg"/>
+                            <constraint firstItem="dN5-sE-8rw" firstAttribute="top" secondItem="jsZ-J3-sbx" secondAttribute="bottom" constant="15" id="VXu-AD-69k"/>
+                            <constraint firstItem="3cl-IE-AlF" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="ZWj-gl-00z"/>
+                            <constraint firstItem="ycq-Mq-RJj" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="cGq-p9-cmB"/>
+                            <constraint firstItem="NqF-sL-tPf" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="dyc-k5-amH"/>
+                            <constraint firstItem="q4y-42-VjI" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="jmd-Cp-04S"/>
+                            <constraint firstItem="q4y-42-VjI" firstAttribute="top" secondItem="SLR-os-13m" secondAttribute="bottom" constant="15" id="juq-Wg-OK9"/>
+                            <constraint firstItem="m6v-jZ-lpi" firstAttribute="top" secondItem="V0v-PP-TUI" secondAttribute="bottom" constant="15" id="oqK-dJ-sLU"/>
+                            <constraint firstItem="NZP-i6-8hf" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="pOw-bF-0b7"/>
+                            <constraint firstItem="NqF-sL-tPf" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="tcM-zr-Dbo"/>
+                            <constraint firstItem="3cl-IE-AlF" firstAttribute="top" secondItem="NZP-i6-8hf" secondAttribute="bottom" constant="15" id="uKz-O7-6iZ"/>
+                            <constraint firstItem="NZP-i6-8hf" firstAttribute="top" secondItem="dN5-sE-8rw" secondAttribute="bottom" constant="15" id="upw-dr-ocV"/>
+                            <constraint firstItem="SLR-os-13m" firstAttribute="top" secondItem="3cl-IE-AlF" secondAttribute="bottom" constant="15" id="vNd-Ye-YSO"/>
+                            <constraint firstItem="dN5-sE-8rw" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="yvJ-OL-27F"/>
+                            <constraint firstItem="SLR-os-13m" firstAttribute="centerX" secondItem="JeS-TY-Rvm" secondAttribute="centerX" id="zWB-O2-Lrd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qTu-6c-LCv"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-836" y="-3"/>
         </scene>
     </scenes>
 </document>

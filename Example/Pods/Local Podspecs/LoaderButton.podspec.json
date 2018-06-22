@@ -1,0 +1,22 @@
+{
+  "name": "LoaderButton",
+  "version": "0.1.0",
+  "summary": "A short description of LoaderButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/evenCoder/LoaderButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "evenCoder": "jovinscoder@163.com"
+  },
+  "source": {
+    "git": "https://github.com/evenCoder/LoaderButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LoaderButton/**/*"
+}

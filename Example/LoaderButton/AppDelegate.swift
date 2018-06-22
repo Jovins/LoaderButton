@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  LoaderButton
 //
-//  Created by evenCoder on 06/21/2018.
-//  Copyright (c) 2018 evenCoder. All rights reserved.
+//  Created by Jovins on 06/21/2018.
+//  Copyright (c) 2018 Jovins. All rights reserved.
 //
 
 import UIKit

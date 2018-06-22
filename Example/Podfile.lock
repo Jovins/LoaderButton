@@ -1,0 +1,16 @@
+PODS:
+  - LoaderButton (0.1.0)
+
+DEPENDENCIES:
+  - LoaderButton (from `../`)
+
+EXTERNAL SOURCES:
+  LoaderButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LoaderButton: 92a854c2d031b92de6281f08c6e6af49918610af
+
+PODFILE CHECKSUM: c9dc6b65e982ef9778dbe94c63be6db036a97b58
+
+COCOAPODS: 1.2.1

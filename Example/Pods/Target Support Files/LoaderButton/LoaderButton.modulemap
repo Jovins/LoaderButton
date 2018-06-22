@@ -1,0 +1,6 @@
+framework module LoaderButton {
+  umbrella header "LoaderButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
